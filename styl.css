@@ -1,0 +1,154 @@
+body
+{
+background-color:#dba7ba;
+margin:0;
+padding:0;
+}
+.navbar-brand
+{
+	margin-left:10px;
+}
+.navbar-toggler
+{
+	margin-right:10px;
+}
+.bg-nawigacja
+{
+	background-image: linear-gradient(to right, #73c2f0, #044f7a);
+	padding:0;
+}
+.carousel-item
+{
+	height: 550px;:
+}
+h8
+{
+	color:#73c2f0;
+	font-size:50px;
+	padding:0;
+	text-shadow: 4px 4px #28547a;
+}
+h9
+{
+	color:#ffffff;
+	font-size:50px;
+	padding:0;
+	text-shadow: 4px 4px #28547a;
+}
+.carousel-caption p
+{
+	color:#ffffff;
+	font-size:25px;
+	text-shadow: 2px 2px #afb1b3;
+}
+#ogolne
+{
+	padding:80px 0;
+}
+#ogolne1
+{
+	padding:80px 0;
+}
+.ogolne-img
+{
+	width:200px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.ogolne1-img
+{
+	width:100px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.ogolne
+{
+	padding:20px;
+}
+.ogolne h4
+{
+	font-size:34px;
+	color:#346794;
+}
+.ogolne p
+{
+	font-size:18px;
+	color:#4684b3;
+	
+}
+.ogolne li
+{
+	font-size:18px;
+	text-align:left;
+	color:#4684b3;
+}
+.ogolne1
+{
+	padding:20px;
+}
+.ogolne1 h4
+{
+	font-size:34px;
+	color:#346794;
+}
+.ogolne1 p
+{
+	font-size:18px;
+	color:#4684b3;
+	text-align:left;
+	
+}
+.ogolne1 li
+{
+	font-size:18px;
+	text-align:left;
+	color:#4684b3;
+}
+h1
+{
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.tytul::before
+{
+	content:'';
+	background:#f3ec78;
+	height:5px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform: translateY(63px);
+}
+.tytul::after
+{
+	content:'';
+	background:#f3ec78;
+	height:10px;
+	width:40px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:40px;
+	display:block;
+	transform: translateY(8px);
+}
+#linia
+{
+	border:solid 2px #4684b3;
+}
+#footer
+{
+	background-image: linear-gradient(to right, #73c2f0, #044f7a);
+}
+.footer-img
+{
+	width:100%;
+	padding:0;
+	float:bottom;
+	background-image: linear-gradient(to right, #73c2f0, #044f7a);
+}

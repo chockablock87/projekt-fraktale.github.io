@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styl.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<title> Fraktale </title>
+<meta name="description" content= "..."/>
+<meta name="keywords" content= "..."/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-nawigacja">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" width="200px" height="55px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">START</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ŹRÓDŁA
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Fraktal" target="_blank">WIKIPEDIA</a></li>
+            <li><a class="dropdown-item" href="https://www.focus.pl/artykul/fraktale-wzor-na-rzeczywistosc" target="_blank">FOCUS.PL</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://towarzystwo.edu.pl/assets/prace_matematyczne/zuzanna_cyunel2012.pdf" target="_blank">TOWARZYSTWO.EDU.PL</a></li>
+			<li><a class="dropdown-item" href="http://loslupca.pl/wp-content/uploads/2015/11/3.-Cudowny-%C5%9Bwiat-fraktali.pdf" target="_blank">LOSLUPCA.PL</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="http://home.agh.edu.pl/~zobmat/2020/III_kac_greg/index.html" target="_blank">HOME.AGH.EDU.PL</a></li>
+			<li><a class="dropdown-item" href="https://ciekawe.org/2015/11/02/fraktalne-wzory-w-przyrodzie/" target="_blank">CIEKAWE.ORG</a></li>
+          </ul>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="fraktale1.html">FRAKTALE W MATEMATYCE</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="fraktale2.html">FRAKTALE W PRZYRODZIE</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="fraktale3.html">FRAKTALE W INNYCH DZIEDZINACH</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/zbiorjulii1.jpg" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h8><strong>ZBIÓR JULII</strong></h8>
+		<p>przykłady zbiorów Julii</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/zbiormand.jpg" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h8><strong>ZBIÓR MANDELBROTA</strong></h8>
+		<p>przykład zbioru Mandelbrota</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/koch.jpg" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h9><strong>KRZYWA KOCHA</strong></h9>
+		<p>przykłady krzywych Kocha</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+<section id="ogolne1">
+<div class="container text-center">
+<h1 class="tytul"><strong>JAKIE FRAKTALE WYSTĘPUJA W MATEMATYCE?</strong></h1>
+<div class="row text-center">
+<div class="col-md-15 ogolne1">
+<img src="img/matma1.png" class="ogolne1-img">
+<h4>Krzywa Kocha</h4>
+<p>Jest to krzywa fraktalna. Jest nieskończenie długa, ale mieści się na skończonej powierzchni, można więc narysować pewne jej przybliżenie. Po raz pierwszy została opisana przez Helgego von Kocha w roku 1904.</p>
+<img src="img/koch.png" class="rounded mx-auto d-block">
+<p><strong>Kroki tworzenia krzywej Kocha:</strong></br>
+<strong>Krok 0</strong></br>
+Krzywa Kocha w kroku zerowym (k=0) jest odcinkiem. Zostanie on podzielony na 3 równe części, a środkową zastąpią dwa odcinki długości l/3 nachylone względem niej pod kątem 60°. Wraz z wyciętym fragmentem mogłyby one utworzyć trójkąt równoboczny. </br>
+<strong>Krok 1</strong></br>
+Krzywa Kocha w kroku pierwszym (k=1), po transformacji zawiera 4 odcinki, każdy równy l/3 W kolejnym kroku każdy z tych odcinków ponownie zostanie podzielony na 3 części, a środkową znów zastąpimy dwoma odcinkami. </br>
+<strong>Krok 2</strong></br>
+Krzywa Kocha w kroku drugim (k=2) zawiera już 16 odcinków, każdy o długości l/9. Czynność możemy powtarzać w nieskończoność. </p>
+</div>
+<hr id="linia">
+<div class="col-md-15 ogolne1">
+<img src="img/matma2.png" class="ogolne1-img">
+<h4>Drzewo pitagorejskie</h4>
+<p>Jest to fraktal zbudowany z kwadratów, który swym kształtem przypomina drzewo. Swoją nazwę zawdzięcza temu, że na każdym etapie konstrukcji, ilustruje graficznie twierdzenie Pitagorasa.</p>
+<img src="img/drzewko.png" class="rounded mx-auto d-block">
+<p><strong>Konstrukcja fraktalu:</strong></br>
+1.Konstrukcja fraktala zaczyna się od narysowania dowolnego kwadratu.</br>
+2.Następnie dorysowujemy do niego trójkąt prostokątny, w którym przeciwprostokątna jest górną krawędzią tego kwadratu.</br>
+3.Na przyprostokątnych trójkąta budujemy kolejne kwadraty.</br>
+4.Powtarzamy powyższe operacje 2 i 3.</br></p>
+</div>
+<hr id="linia">
+<div class="col-md-15 ogolne1">
+<img src="img/trojkat2.png" class="ogolne1-img">
+<h4>Trójkąt Sierpińskiego</h4>
+<p>Jest to jeden z najprostszych fraktali. Jego konstrukcja została podana przez polskiego matematyka Wacława Sierpińskiego w 1915.</p>
+<img src="img/trojkat.png" class="rounded mx-auto d-block">
+<p>Tworzymy go rysując trójkąt równoboczny, łączymy środki boków trójkąta, dzieląc go na 4 trójkąty. Następnie usuwamy trójkąt środkowy i powtarzamy operację na pozostałych 3 trójkątach.</p>
+</div>
+<hr id="linia">
+</div>
+</div>
+<img src="img/fala.png" class="footer-img">
+<footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3" style="background-color:#97d2f7;">
+    © 2021 Copyright
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

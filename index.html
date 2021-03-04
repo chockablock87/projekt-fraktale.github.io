@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styl.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<title> Fraktale </title>
+<meta name="description" content= "..."/>
+<meta name="keywords" content= "..."/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-nawigacja">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" width="200px" height="55px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">START</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ŹRÓDŁA
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Fraktal" target="_blank">WIKIPEDIA</a></li>
+            <li><a class="dropdown-item" href="https://www.focus.pl/artykul/fraktale-wzor-na-rzeczywistosc" target="_blank">FOCUS.PL</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://towarzystwo.edu.pl/assets/prace_matematyczne/zuzanna_cyunel2012.pdf" target="_blank">TOWARZYSTWO.EDU.PL</a></li>
+			<li><a class="dropdown-item" href="http://loslupca.pl/wp-content/uploads/2015/11/3.-Cudowny-%C5%9Bwiat-fraktali.pdf" target="_blank">LOSLUPCA.PL</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="http://home.agh.edu.pl/~zobmat/2020/III_kac_greg/index.html" target="_blank">HOME.AGH.EDU.PL</a></li>
+			<li><a class="dropdown-item" href="https://ciekawe.org/2015/11/02/fraktalne-wzory-w-przyrodzie/" target="_blank">CIEKAWE.ORG</a></li>
+          </ul>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="fraktale1.html">FRAKTALE W MATEMATYCE</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="fraktale2.html">FRAKTALE W PRZYRODZIE</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="fraktale3.html">FRAKTALE W INNYCH DZIEDZINACH</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/karuzelaglowna7.jpg" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h8><strong>FRAKTAL</strong></h8>
+		<p> nietrywialna struktura w każdej skali</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/karuzelaglowna6.png" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h8><strong>FRAKTAL</strong></h8>
+		<p> samopodobność </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/karuzelaglowna4.jpg" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h8><strong>FRAKTAL</strong></h8>
+		<p> poszarpany, kłębiasty wygląd </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+<section id="ogolne">
+<div class="container text-center">
+<h1 class="tytul"><strong>CZYM SĄ WZORY ZWANE FRAKTALAMI?</strong></h1>
+<div class="row text-center">
+<div class="col-md-4 ogolne">
+<img src="img/mess.png" class="ogolne-img">
+<h4>Matematycy</h4>
+<p>unikają ścisłego podawania definicji fraktalu, przez ich wielką różnorodność.
+Jednak w uproszczeniu fraktal, jest figurą, w której część figury jest podobna do całości. Jest samopodobny. Cechy fraktalu podawane przez matematyków: </p>
+<ul>
+<li>ma nietrywialną strukturę w każdej skali </li>
+<li>struktura ta nie daje się łatwo opisać w języku tradycyjnej geometrii euklidesowej </li>
+<li>jest samopodobny, jeśli nie w sensie dokładnym, to przybliżonym </li>
+<li>ma naturalny („poszarpany”, „kłębiasty” itp.) wygląd</li>
+</ul>
+</div>
+<div class="col-md-4 ogolne">
+<img src="img/mess.png" class="ogolne-img">
+<h4>Fraktale</h4>
+<p>można dostrzec wszędzie – w kształtach chmur, budowie kalafiora, rozgałęzieniach naczyń krwionośnych. Czy to przypadek? Zdaniem uczonych te miłe dla oka wzorki mogą pomóc nam zrozumieć zjawiska tak fundamentalne, jak zmiany klimatyczne czy struktura wszechświata. </p>
+</div>
+<div class="col-md-4 ogolne">
+<img src="img/mess.png" class="ogolne-img">
+<h4>Najwybitniejszym</h4>
+<p>znawcą fraktali i twórcą tego terminu, jest matematyk i informatyk amerykański <strong> Benoit Mandelbrot </strong>. W swoim referacie wygłoszonym na Międzynarodowym Kongresie Matematyków w Warszawie w 1983 roku, wypowiedział zdanie, że  jest jeszcze za wcześnie na formułowanie ścisłej definicji fraktala, ponieważ ciągle jeszcze nie rozumiemy dostatecznie głęboko istoty tego pojęcia</p>
+</div>
+</div>
+</div>
+<img src="img/fala.png" class="footer-img">
+<footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3" style="background-color:#97d2f7;">
+    © 2021 Copyright
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
